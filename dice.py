@@ -1,6 +1,9 @@
 import random
 import time
 
+name = input("What is your name? \n> ")
+print(f"Hello, {name}!")
+
 print("Rolling the dice...")
 time.sleep(1)
 
@@ -13,6 +16,6 @@ print(f"Die 2: {die2}")
 print(f"Total value: {total}")
 
 if total > 7:
-    print("You won!")
+    print(f"{name} won!")
 else:
-    print("You lost.")
+    print(f"{name} lost.")
