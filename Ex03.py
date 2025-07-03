@@ -11,6 +11,6 @@ print(f"Die 2: {d2}")
 print(f"Total value: {total}")
 
 if total > 7:
-    print("You won!")
+    print(f"{name} won!")
 else:
-    print("You lost!")
+    print(f"{name} lost!")
